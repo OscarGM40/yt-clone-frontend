@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth,GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_KEY,
+  apiKey: process.env.FIREBASE_KEY,
   authDomain: "yt-clone-lama.firebaseapp.com",
   projectId: "yt-clone-lama",
   storageBucket: "yt-clone-lama.appspot.com",
